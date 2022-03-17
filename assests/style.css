@@ -1,0 +1,32 @@
+/*
+Estilos da página Index
+*/
+
+* {
+
+    text-decoration: none;
+
+}
+
+#menu ul li {
+    display: inline;
+}
+
+/*<style>
+h1 {
+    color:brown;
+    text-align: center;
+}
+
+#titulo2 {
+    color:rgb(24, 20, 20);
+    text-align: center;
+}
+</style>*/
+
+
+
+
+/*
+Estilos da página Contato
+*/
