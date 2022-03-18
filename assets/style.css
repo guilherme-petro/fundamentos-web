@@ -2,7 +2,6 @@
 
 * {
     background-color: rgb(247, 240, 232);
-    text-decoration: none;
     font-family: 'Fredoka', sans-serif;;
     }
 
@@ -14,11 +13,20 @@
     display: inline-block;
     font-size: 20px;
     color: rgb(35, 34, 36);
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(35, 34, 36);
 }
 
 #menu ul li a:hover {
-    color: rgb(92, 95, 94);
+    color: rgb(162, 43, 241);
     cursor: pointer;
 }
 
@@ -27,9 +35,17 @@
 }
 
 .container {
-    text-align: center;
+    display: flex;
+
+    justify-content: center;
     align-items: center;
+
 }
+
+.flex-container > div {
+    display: flex;
+}
+
 
 #rodape {
     color: black;
@@ -44,18 +60,19 @@ Estilos da página Index
     color: black;
     font-size: 50px;
     padding: 10px;
+    margin: 5px;
 }
 
 /*
 Estilos da página Contato
 */
 
-.textosobre {
+/*.textosobre {
     text-align: left;
     font-size: 20px;
     padding-left: 20%;
     padding-right: 20%;
-}
+}*/
 
 /*
 Estilos da página Contato
